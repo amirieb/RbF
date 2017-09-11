@@ -20,7 +20,7 @@ https://scholar.harvard.edu/hadi/RbF
 Please see the above address for most recent update on RbF. 
 
 # Citation
-Hadi Amiri, Timothy A. Miller, Guergana Savova Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks. EMNLP 2017. 
+Hadi Amiri, Timothy A. Miller, Guergana Savova. [Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks](http://www.umiacs.umd.edu/~hadi/papers/amiri_emnlp17.pdf). EMNLP 2017. 
 
 # Contact
 Hadi Amiri, hadi.amiri@childrens.harvard.edu
