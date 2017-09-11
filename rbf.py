@@ -88,8 +88,8 @@ del model
 
 # PART 5. load the model and train it with rbf kernels 
 print('-------------------------------')
-kern = 'gau'  # ['gau', 'lap', 'lin', 'cos', 'qua', 'sec']
-nu = 0.5  # (0., 1.)
+kern = 'gau' # type of kernel function, it could be any kernel in ['gau', 'lap', 'lin', 'cos', 'qua', 'sec'] which represent gaussian, laplace, linear, cosine, quadratic, and secant functions respectively
+nu = 0.5  # recall confidence, RbF scheduler estimates the maximum delay such that instances can be recalled with this confidence in the future iterations, nu takes a value in (0,1)  
 print('rbf training with kern = ', kern, ', nu = ', nu)             
 model = load_model('my_model.h5')
 start = time.time()

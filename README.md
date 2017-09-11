@@ -19,6 +19,21 @@ paradigms, edit/comment out lines 101-107.
 https://scholar.harvard.edu/hadi/RbF 
 Please see the above address for most recent update on RbF. 
 
+# Command
+python rbf.py
+
+rbf.py is a sample code in which you could load your data (lines 47-56), design
+your favorite network architecture (lines 61-67), and choose the type of
+training paradigm you'd like to use (lines 77-83 for standard training 
+and lines 88-96 for Rbf). If you are using only one of these training
+paradigms, edit/comment out lines 101-107.  
+
+### Parameters 
+**kern**: type of kernel function, it could be any kernel in ['gau', 'lap', 'lin', 'cos', 'qua', 'sec'] which represent gaussian, laplace, linear, cosine, quadratic, and secant functions respectively
+            
+**nu**: recall confidence, RbF scheduler estimates the maximum delay such that instances can be recalled with this confidence in the future iterations, nu takes a value in (0,1)  
+
+
 # Citation
 Hadi Amiri, Timothy A. Miller, Guergana Savova. [Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks](http://www.umiacs.umd.edu/~hadi/papers/amiri_emnlp17.pdf). EMNLP 2017. 
 
