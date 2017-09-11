@@ -19,7 +19,7 @@ paradigms, edit/comment out lines 101-107.
 https://scholar.harvard.edu/hadi/RbF 
 Please see the above address for most recent update on RbF. 
 
-# Command
+# How to Use
 python rbf.py
 
 rbf.py is a sample code in which you could load your data (lines 47-56), design
