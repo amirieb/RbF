@@ -6,7 +6,7 @@ that shows human ability to retain information improves with repeated
 exposure and exponentially decays with delay since last exposure. It 
 works based on spaced repetition in which training instances are 
 repeatedly presented to the network on a schedule determined by a spaced 
-repetition algorithm. RbF shorten or lengthen review intervals for 
+repetition algorithm. RbF shortens or lengthens review intervals for 
 training instances with respect to loss of instances and current 
 performance of network on validation data.
 
@@ -17,16 +17,11 @@ and lines 88-96 for Rbf). If you are using only one of these training
 paradigms, edit/comment out lines 101-107.  
 
 https://scholar.harvard.edu/hadi/RbF 
-Please see the above address for most recent update on RbF. 
+Please see the above address for most recent updates on RbF. 
 
 # How to Use
 python rbf.py
 
-rbf.py is a sample code in which you could load your data (lines 47-56), design
-your favorite network architecture (lines 61-67), and choose the type of
-training paradigm you'd like to use (lines 77-83 for standard training 
-and lines 88-96 for Rbf). If you are using only one of these training
-paradigms, edit/comment out lines 101-107.  
 
 ### Parameters 
 **kern**: type of kernel function, it could be any kernel in ['gau', 'lap', 'lin', 'cos', 'qua', 'sec'] which represent gaussian, laplace, linear, cosine, quadratic, and secant functions respectively
