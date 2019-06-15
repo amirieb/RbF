@@ -38,14 +38,13 @@ from rbf_keras.models import load_model
 
 
 # PART 0. parameters setting
-## I set these to small/unrealistic values. 
-## You would need to set values based on your network architecture. 
+## Set parameters based on your network architecture. 
 nb_epoch = 10 # number of training iterations
 max_features = 1000 # max number of features to use
 maxlen = 100  # cut texts after this number of words
 hidden_size = 4 # size of hidden layer! 
 embedding_dims = 4 # size of embedding layer
-batch_size = 4 # batch size
+batch_size = 1 # batch size. Greater values treat all instances in a batch similarly for scheduling.
 
 
 # PART 1. load some data 
@@ -61,7 +60,7 @@ print('X_test shape:', X_test.shape)
 
 
 
-# PART 2. create a simple LSTM net
+# PART 2. create a neural network
 print('Build model...')
 model = Sequential()
 model.add(Embedding(max_features, embedding_dims))
